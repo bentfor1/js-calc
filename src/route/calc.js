@@ -10,3 +10,5 @@ router.get('/', function (req, res) {
     data: {},
   })
 })
+// Підключаємо роутер до бек-енду
+module.exports = router
